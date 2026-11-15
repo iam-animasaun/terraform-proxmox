@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "proxmox" {
-  endpoint  = "https://192.168.164.216:8006/"
+  endpoint  = "https://192.168.246.216:8006/"
   api_token = var.pve_api_token   # format: terraform@pve!tf=<secret>
   insecure  = true                # self-signed cert
   ssh {
